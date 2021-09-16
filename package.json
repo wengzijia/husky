@@ -1,0 +1,19 @@
+{
+  "name": "husky",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install",
+    "eslint":"eslint ./index.js",
+    "hello":"hello word"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "husky": "^7.0.0"
+  }
+}
